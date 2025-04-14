@@ -1,0 +1,61 @@
+moonshot:
+  api_type: "moonshot"
+  model: "moonshot-v1-32k"
+  base_url: "https://api.moonshot.cn/v1"
+  api_key: ""
+  repair_llm_output: true
+
+turbo:
+  api_type: "openai"
+  model: "gpt-3.5-turbo-1106"
+  base_url: "https://api.agicto.cn/v1"
+  api_key: ""
+  repair_llm_output: true
+
+openai:
+  api_type: "openai"
+  model: "gpt-4o-mini"
+  base_url: "https://api.agicto.cn/v1"
+  api_key: ""
+  repair_llm_output: true
+
+
+qwen:
+  api_type: "qwen"
+  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  model: "qwen2-72b-instruct"
+  api_key: ""
+  repair_llm_output: true
+
+ollama:
+  api_type: 'ollama'
+  base_url: 'http://127.0.0.1:11434/api'
+  model: 'llama3.1'
+  stream: false
+
+baichuan:
+  api_type: "baichuan"
+  model: "Baichuan3-Turbo"
+  base_url: "https://api.baichuan-ai.com/v1/"
+  api_key: ""
+  repair_llm_output: true
+
+
+zhipuai:
+  api_type: 'zhipuai'
+  api_key: ''
+  model: 'GLM-4-Air'
+
+YI:
+  api_type: "yi"
+  model: "yi-large"
+  base_url: "https://api.lingyiwanwu.com/v1"
+  api_key: ""
+  repair_llm_output: true
+
+turbo_v1:
+  api_type: "openai"
+  model: "gpt-3.5-turbo-1106"
+  base_url: "https://api.agicto.cn/v1"
+  api_key: ""
+  repair_llm_output: true
